@@ -1,11 +1,19 @@
 Description
 ===========
 
-A "Hello World!" program for using CMake and Catch2.
+A "Hello World!" program, using CMake and Catch2.
+
+This is meant to be a template for test-driven C++ projects,
+using CMake and Catch2.
 
 
 Requirements
 ============
+
+CMake
+-----
+Here is a good description of how to install CMake:
+https://cgold.readthedocs.io/en/latest/first-step/installation.html
 
 Catch2
 ------
