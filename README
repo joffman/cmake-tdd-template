@@ -1,0 +1,32 @@
+Description
+===========
+
+A "Hello World!" program for using CMake and Catch2.
+
+
+Requirements
+============
+
+Catch2
+------
+Use the following commands to install (see
+https://github.com/catchorg/Catch2/issues/1383):
+$ git clone https://github.com/catchorg/Catch2.git
+$ cd Catch2
+$ cmake -Bbuild -H. -DBUILD_TESTING=OFF
+$ sudo cmake --build build/ --target install 
+
+
+Compile & Run
+=============
+
+Compile (starting from project-root):
+$ cd build-debug
+$ cmake -DCMAKE_BUILD_TYPE=Debug ..
+$ make
+
+Run executable (from build-debug directory):
+$ ./src/my_executable
+
+Run tests (from build-debug directory):
+$ ./test/my_test
